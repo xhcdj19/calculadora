@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+                <title>Calculadora</title>
+
+                <link rel="stylesheet" type="text/css" href="style.css">
+
+        </head>
+
+        <body>
+            
+            <header>CALCULADORA</header>
+
+            <h1 id="titulo">CALCULADORA</h1>
+
+            <div class="container">
+
+                <div id="numbs">
+                    <div class="text">
+                        <input type="text" id="textResult" readonly="readonly">
+                    </div>
+                    <div>
+                        <input type="button" value="7"id="7" class="btn_num" onclick="siete()">
+                    </div>
+                    <div>
+                        <input type="button" value="8"id="8" class="btn_num" onclick="ocho()">
+                    
+                    </div>
+                    <div>
+                        <input type="button" value="9"id="9" class="btn_num" onclick="nueve()">
+                    </div>
+                    <div>
+                        <input type="button" value="+"id="+" class="btn_op"  onclick="suma()"> 
+                    </div>
+                    <div>
+                        <input type="button" value="4"id="4" class="btn_num" onclick="cuatro()">
+                    </div>
+                    <div>
+                        <input type="button" value="5"id="5" class="btn_num" onclick="cinco()">
+                    </div>
+                    <div>
+                        <input type="button" value="6"id="6" class="btn_num" onclick="seis()">
+                    </div>
+                    <div>
+                        <input type="button" value="-"id="-" class="btn_op" onclick="resta"> 
+                    </div>
+                    <div>
+                        <input type="button" value="1"id="1" class="btn_num" onclick="uno()">
+                    </div>
+                    <div>
+                        <input type="button" value="2"id="2" class="btn_num" onclick="dos()">
+                    </div>
+                    <div>
+                        <input type="button" value="3"id="3" class="btn_num" onclick="tres()">
+                    </div>
+                    <div>
+                        <input type="button" value="*"id="*" class="btn_op" onclick="multiplicacion"> 
+
+                    </div>
+
+                    <div class="ceroDiv">
+                        <input type="button" value="0"id="cero" class="btn_num" onclick="cero()">
+                    </div>
+                    <div>
+                        <input type="button" value="."id="." class="btn_num" onclick="punto()">
+                    </div>
+
+                </div>
+                <div>
+                  
+                </div>
+                <div>
+                   
+                </div>
+            </div>
+           
+                <script src="operaciones.js"></script>
+            
+
+        </body>
+
+
+    </html>
+
